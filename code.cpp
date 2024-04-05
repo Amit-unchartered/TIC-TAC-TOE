@@ -43,6 +43,33 @@ int checkwin(){
     }
 }
 
+//THIS FUNCTION WILL DRAW THE BOARD WITH PLAYERS MARK
+
+void board(){
+    system("cls");
+    cout << "\n\nTic Tac Toe Game\n\n";
+
+    cout << "Player1(X) - Player2(O)" << endl << endl;
+    cout << endl;
+
+    //drawing of the board
+    cout << "   |    |   " << endl;
+    cout << " " << square[1] << " |  " << square[2] << " |  " << square[3] << " |  " << endl;
+
+    cout << "___|____|___" << endl;
+    cout << "   |    |   " << endl;
+
+    cout << " " << square[4] << " |  " << square[5] << " |  " << square[6] << " |  " << endl;
+
+    cout << "___|____|___" << endl;
+    cout << "   |    |   " << endl;
+
+    cout << " " << square[7] << " |  " << square[8] << " |  " << square[9] << " |  " << endl;
+
+    cout << "   |    |   " << endl;
+
+}
+
 int main(){
 
 }
